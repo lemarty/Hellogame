@@ -17,7 +17,7 @@ public class Room : MonoBehaviour {
 	void Start () {
 		
 		PositionPerso = GameObject.Find ("Character").transform;
-
+        /*
 		PositionX = Random.Range (-4.0f, 4.0f);
 		PositionY = Random.Range ((this.transform.position.y) - 3.0f, (this.transform.position.y) - 2.0f);
 
@@ -47,7 +47,7 @@ public class Room : MonoBehaviour {
 
 		GroundClone = Instantiate (Ground, new Vector2 (PositionX,PositionY), Quaternion.identity) as GameObject;
 		GroundClone.transform.parent = this.transform.parent;
-
+        */
 
 	}
 
