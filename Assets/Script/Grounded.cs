@@ -22,7 +22,8 @@ public class Grounded : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D col)
 	{
-		Joueur.IsGround = true; 
+		Joueur.IsGround = true;
+        Joueur.Jump = false;
 	}
 
 	void OnTriggerExit2D(Collider2D col)
